@@ -334,7 +334,7 @@ withjQuery(function($, window){
 						window.location.replace( queryurl );
 					} else {
 						msg = msg.match(/var\s+message\s*=\s*"([^"]*)/);
-						//alert( msg && msg[1] || "未知错误" );
+						alert( msg && msg[1] || "未知错误" );
 					}
 				},
 				error: function(msg){
